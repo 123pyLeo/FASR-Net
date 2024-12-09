@@ -36,6 +36,6 @@
 | Method | S | NS | All |
 | --- | --- | --- | --- |
 | FASR-Net | 31.89 | 34.57 | 27.58 |
-| w/o \(\mathcal{L}_{Align}\) | 30.82 | 34.36 | 26.76 |
-| w/o \(\mathcal{L}_{brightness-ch}\) | 30.21 | 34.00 | 26.19 |
-| w/o \(\mathcal{L}_{frequency}\) | 29.74 | 31.14 | 24.52 |
+| w/o $\mathcal{L}_{Align}$ | 30.82 | 34.36 | 26.76 |
+| w/o $\mathcal{L}_{brightness-ch}$ | 30.21 | 34.00 | 26.19 |
+| w/o $\mathcal{L}_{frequency}$ | 29.74 | 31.14 | 24.52 |
