@@ -1,6 +1,6 @@
 clear;
 tic
-fd = fopen('C:\Users\Administrator\Desktop\BBBBB\ShadowNetmain\evaluation\AISTDtest.txt');
+fd = fopen('AISTDtest.txt');
 a = textscan(fd, '%s');
 fclose(fd);
 testfnlist = a{1};
@@ -16,11 +16,11 @@ total_pix_l6 = zeros(1, numel(testfnlist));
 
 parfor recovery_count = 1 : numel(testfnlist)
     % Methods by Guo
-    gt_recovery         = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\test_C\' testfnlist{recovery_count}(1:end-4) '.png']);
-    shadow_recovery     = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\test_A\' testfnlist{recovery_count}(1:end-4) '.png']);  
+    gt_recovery         = imread(['test_C\' testfnlist{recovery_count}(1:end-4) '.png']);
+    shadow_recovery     = imread(['test_A\' testfnlist{recovery_count}(1:end-4) '.png']);  
         
-    recovered_recovery  = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\outputC4\' testfnlist{recovery_count}(1:end-4) '.png']);  
-    m                   = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\test_B\' testfnlist{recovery_count}(1:end-4) '.png']);
+    recovered_recovery  = imread(['outputC4\' testfnlist{recovery_count}(1:end-4) '.png']);  
+    m                   = imread(['test_B\' testfnlist{recovery_count}(1:end-4) '.png']);
          
     if numel(size(m)) == 3
         m = rgb2gray(m);
