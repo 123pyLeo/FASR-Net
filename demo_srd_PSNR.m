@@ -2,7 +2,7 @@ clear;
 tic
 
 % Read test file names
-fd = fopen('C:\Users\Administrator\Desktop\阴影\ceshi\SRD.txt');
+fd = fopen('SRD.txt');
 a = textscan(fd, '%s');
 fclose(fd);
 testfnlist = a{1};
@@ -16,9 +16,9 @@ total_psnr_l6 = zeros(1, numel(testfnlist));
 
 parfor recovery_count = 1:numel(testfnlist)
     % Load images
-    gt_recovery = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\shadow_free\' testfnlist{recovery_count}(1:end-4) '.jpg']);
-    recovered_recovery = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\outputBsota\' testfnlist{recovery_count}(1:end-4) '.png']);
-    m = imread(['C:\Users\Administrator\Desktop\阴影\ceshi\mask\' testfnlist{recovery_count}(1:end-4) '.jpg']);
+    gt_recovery = imread(['shadow_free\' testfnlist{recovery_count}(1:end-4) '.jpg']);
+    recovered_recovery = imread(['output\' testfnlist{recovery_count}(1:end-4) '.png']);
+    m = imread(['mask\' testfnlist{recovery_count}(1:end-4) '.jpg']);
     
     % Resize recovered image if necessary
     if any(size(gt_recovery) ~= size(recovered_recovery))
