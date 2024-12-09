@@ -1,6 +1,6 @@
 clear;
 tic
-fd = fopen('C:\Users\Administrator\Desktop\阴影\ceshi\SRD.txt');
+fd = fopen('SRD.txt');
 a = textscan(fd, '%s');
 fclose(fd);
 testfnlist = a{1};
@@ -16,11 +16,11 @@ total_pix_l6 = zeros(1, numel(testfnlist));
 
 parfor recovery_count = 1 : numel(testfnlist)
     
-    base_path = 'C:\Users\Administrator\Desktop\阴影\ceshi\';
+    base_path = 'test\';
     
     gt_path = fullfile(base_path, 'shadow_free', [testfnlist{recovery_count}(1:end-4) '.jpg']);
     shadow_path = fullfile(base_path, 'shadow', [testfnlist{recovery_count}(1:end-4) '.jpg']);
-    recovered_path = fullfile(base_path, 'gr\SRD256', [testfnlist{recovery_count}(1:end-4) '.jpg']);
+    recovered_path = fullfile(base_path, 'SRD256', [testfnlist{recovery_count}(1:end-4) '.jpg']);
     mask_path = fullfile(base_path, 'mask', [testfnlist{recovery_count}(1:end-4) '.jpg']);
     
     if ~exist(gt_path, 'file') || ~exist(shadow_path, 'file') || ~exist(recovered_path, 'file') || ~exist(mask_path, 'file')
