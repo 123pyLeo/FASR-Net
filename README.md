@@ -15,9 +15,9 @@
 | Supervised | G2R-ShadowNet | 26.24 | 15.31 | 32.46 | 3.43 | 22.58 | 5.30 |
 | Supervised | Param+M+D-Net | 30.99 | 10.50 | 34.70 | 3.74 | 26.58 | 4.81 |
 | Supervised | Auto | 31.00 | 9.44 | 29.32 | 4.37 | 24.14 | 5.17 |
-| Unsupervised | Mask-ShadowGAN | 29.37 | 12.5 | 31.65 | 4.0 | 24.57 | 5.3 |
+| Unsupervised | Mask-ShadowGAN | 29.37 | 12.50 | 31.65 | 4.00 | 24.57 | 5.30 |
 | Unsupervised | S3R-Net | - | 12.16 | - | 6.38 | - | 7.12 |
-| Unsupervised | DC-ShadowNet | 31.06 | 10.3 | 27.03 | 3.5 | 25.03 | 4.6 |
+| Unsupervised | DC-ShadowNet | 31.06 | 10.30 | 27.03 | 3.50 | 25.03 | 4.60 |
 | Unsupervised | LG-ShadowNet | 30.32 | 10.35 | 32.53 | 4.03 | 25.53 | 5.03 |
 | Unsupervised | FASR-Net(ours) | 31.89 | 8.61 | 34.57 | 2.84 | 27.58 | 3.75 |
 
