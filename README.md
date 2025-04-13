@@ -5,19 +5,10 @@
 ### Shadow_Brightness-Chromaticity_demo
 
 ## 第一行图片
-<img src="Shadow_Brightness-Chromaticity_demo/1.jpg" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/2.png" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/3.png" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/4.jpg" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/5.png" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/1.jpg" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/2.png" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/3.png" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/4.jpg" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/5.png" width="200" />
 
 ## 第二行图片
-<img src="Shadow_Brightness-Chromaticity_demo/11.jpg" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/12.png" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/13.png" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/14.jpg" width="200" />
-<img src="Shadow_Brightness-Chromaticity_demo/15.jpg" width="200" />
-
+<img src="Shadow_Brightness-Chromaticity_demo/11.jpg" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/12.png" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/13.png" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/14.jpg" width="200" /> <img src="Shadow_Brightness-Chromaticity_demo/15.jpg" width="200" />
 #### Datasets
 
 1. SRD 
