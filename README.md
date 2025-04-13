@@ -10,7 +10,7 @@
 ### Evaluation
 
 #### Table 1: PSNR/RMSE/SSIM/LPIPS Results on AISTD Dataset
-| Learning | Method | Shadow Region (S) PSNR$\uparrow$ | Shadow Region (S) RMSE$\downarrow$ | Shadow Region (S) SSIM$\uparrow$ | Shadow-Free Region (NS) PSNR$\uparrow$ | Shadow-Free Region (NS) RMSE$\downarrow$ | Shadow-Free Region (NS) SSIM$\uparrow$ | All Image PSNR$\uparrow$ | All Image RMSE$\downarrow$ | All Image SSIM$\uparrow$ | All Image LPIPS$\downarrow$ |
+| Learning | Method | Shadow Region (S) PSNR $\uparrow$ | Shadow Region (S) RMSE $\downarrow$ | Shadow Region (S) SSIM $\uparrow$ | Shadow-Free Region (NS) PSNR $\uparrow$ | Shadow-Free Region (NS) RMSE $\downarrow$ | Shadow-Free Region (NS) SSIM $\uparrow$ | All Image PSNR $\uparrow$ | All Image RMSE $\downarrow$ | All Image SSIM $\uparrow$ | All Image LPIPS $\downarrow$ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Supervised | G2R-ShadowNet | 26.24 | 15.31 | 0.962 | 32.46 | 3.43 | 0.946 | 22.58 | 5.30 | 0.876 | 0.140 |
 | Supervised | Auto | 31.00 | 9.44 | 0.971 | 29.32 | 4.37 | 0.841 | 24.14 | 5.17 | 0.768 | 0.174 |
