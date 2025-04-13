@@ -10,15 +10,15 @@
 ### Evaluation
 
 #### Table 1: PSNR/RMSE/SSIM/LPIPS Results on AISTD Dataset
-| Learning | Method | Shadow Region (S) PSNR$\uparrow$ | Shadow Region (S) RMSE$\downarrow$ | Shadow Region (S) SSIM$\uparrow$ | Shadow-Free Region (NS) PSNR$\uparrow$ | Shadow-Free Region (NS) RMSE$\downarrow$ | Shadow-Free Region (NS) SSIM$\uparrow$ | All Image PSNR$\uparrow$ | All Image RMSE$\downarrow$ | All Image SSIM$\uparrow$ | All Image LPIPS$\downarrow$ |
+| Learning Method | Shadow Region (S) PSNR↑ | Shadow Region (S) RMSE↓ | Shadow Region (S) SSIM↑ | Shadow-Free Region (NS) PSNR↑ | Shadow-Free Region (NS) RMSE↓ | Shadow-Free Region (NS) SSIM↑ | All Image PSNR↑ | All Image RMSE↓ | All Image SSIM↑ | All Image LPIPS↓ |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Supervised | G2R-ShadowNet \cite{liu2021g2rshadow} | 26.24 | 15.31 | 0.962 | 32.46 | 3.43 | 0.946 | 22.58 | 5.30 | 0.876 | 0.140 |
-| Supervised | Auto\cite{guo2012paired} | 31.00 | 9.44 | 0.971 | 29.32 | 4.37 | 0.841 | 24.14 | 5.17 | 0.768 | 0.174 |
-| Supervised | Param+M+D-Net \cite{le2020shadow} | 30.99 | 10.50 | **0.985** | 34.50 | 3.74 | 0.976 | 26.58 | 4.81 | **0.942** | 0.062 |
-| Unsupervised | Mask-ShadowGAN \cite{hu2019mask} | 29.37 | 12.50 | 0.901 | 31.65 | 4.00 | 0.943 | 24.57 | 5.30 | 0.915 | 0.095 |
-| Unsupervised | S3R-Net \cite{kubiak2024s3r} | - | 12.16 | - | - | 6.38 | - | - | 7.12 | - | - |
-| Unsupervised | LG-ShadowNet \cite{liu2021shadow} | 30.32 | 10.35 | 0.982 | 32.53 | 4.03 | 0.973 | 25.53 | 5.03 | 0.928 | 0.103 |
-| Unsupervised | DC-ShadowNet \cite{jin2021dc} | 31.06 | 10.30 | 0.978 | 27.03 | 3.50 | 0.971 | 25.03 | 4.60 | 0.921 | 0.170 |
+| Supervised | 26.24 | 15.31 | 0.962 | 32.46 | 3.43 | 0.946 | 22.58 | 5.30 | 0.876 | 0.140 |
+| Supervised | 31.00 | 9.44 | 0.971 | 29.32 | 4.37 | 0.841 | 24.14 | 5.17 | 0.768 | 0.174 |
+| Supervised | 30.99 | 10.50 | **0.985** | 34.50 | 3.74 | 0.976 | 26.58 | 4.81 | **0.942** | 0.062 |
+| Unsupervised | 29.37 | 12.50 | 0.901 | 31.65 | 4.00 | 0.943 | 24.57 | 5.30 | 0.915 | 0.095 |
+| Unsupervised | - | 12.16 | - | - | 6.38 | - | - | 7.12 | - | - |
+| Unsupervised | 30.32 | 10.35 | 0.982 | 32.53 | 4.03 | 0.973 | 25.53 | 5.03 | 0.928 | 0.103 |
+| Unsupervised | 31.06 | 10.30 | 0.978 | 27.03 | 3.50 | 0.971 | 25.03 | 4.60 | 0.921 | 0.170 |
 | Unsupervised | **FASR-Net(ours)** | **31.89** | **8.61** | 0.982 | **34.57** | **2.84** | **0.978** | **27.58** | **3.75** | 0.934 | **0.055** | 
 
 #### Table 2: RMSE Results on SRD Dataset
