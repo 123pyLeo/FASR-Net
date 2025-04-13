@@ -2,23 +2,23 @@
 
 ## The code is being updated gradually.
 
-## Shadow_Brightness-Chromaticity_demo
+### Shadow_Brightness-Chromaticity_demo
 
 ## 第一行图片
-![图片1](Shadow_Brightness-Chromaticity_demo/1.jpg)
-![图片2](Shadow_Brightness-Chromaticity_demo/2.png)
-![图片3](Shadow_Brightness-Chromaticity_demo/3.png)
-![图片4](Shadow_Brightness-Chromaticity_demo/4.jpg)
-![图片5](Shadow_Brightness-Chromaticity_demo/5.png)
+<img src="Shadow_Brightness-Chromaticity_demo/1.jpg" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/2.png" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/3.png" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/4.jpg" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/5.png" width="200" />
 
 ## 第二行图片
-![图片11](Shadow_Brightness-Chromaticity_demo/11.jpg)
-![图片12](Shadow_Brightness-Chromaticity_demo/12.png)
-![图片13](Shadow_Brightness-Chromaticity_demo/13.png)
-![图片14](Shadow_Brightness-Chromaticity_demo/14.jpg)
-![图片15](Shadow_Brightness-Chromaticity_demo/15.jpg)
+<img src="Shadow_Brightness-Chromaticity_demo/11.jpg" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/12.png" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/13.png" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/14.jpg" width="200" />
+<img src="Shadow_Brightness-Chromaticity_demo/15.jpg" width="200" />
 
-### Datasets
+#### Datasets
 
 1. SRD 
 2. AISTD|ISTD+ 
